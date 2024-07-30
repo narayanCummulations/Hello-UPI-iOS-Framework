@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D01256D2C579DE7005CD355 /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D01256C2C579DE7005CD355 /* AudioView.swift */; };
+		5D0125742C579EFB005CD355 /* WebSocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0125732C579EFB005CD355 /* WebSocketView.swift */; };
+		5D20A5E92C4E6F6600DA4F66 /* AES_ALGO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D20A5E82C4E6F6600DA4F66 /* AES_ALGO.swift */; };
+		5D20A5EB2C4E70B500DA4F66 /* CustomAudioSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D20A5EA2C4E70B500DA4F66 /* CustomAudioSDK.swift */; };
+		5D20A5ED2C4E719100DA4F66 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D20A5EC2C4E719100DA4F66 /* BottomSheetView.swift */; };
+		5D20A6072C4E9D7300DA4F66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D20A6062C4E9D7300DA4F66 /* Assets.xcassets */; };
+		5D2F985E2C523EBC0021B47F /* ContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F985D2C523EBC0021B47F /* ContactsManager.swift */; };
+		5D2F98602C52416F0021B47F /* ContactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F985F2C52416F0021B47F /* ContactScreen.swift */; };
+		5D2F986A2C5253570021B47F /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2F98692C5253570021B47F /* WebSocket.swift */; };
 		5D5308F62C4E6130006CD382 /* Hello_UPI_iOS_Framework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5D5308F52C4E6130006CD382 /* Hello_UPI_iOS_Framework.docc */; };
 		5D5308FC2C4E6130006CD382 /* Hello_UPI_iOS_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5308F12C4E6130006CD382 /* Hello_UPI_iOS_Framework.framework */; };
 		5D5309012C4E6130006CD382 /* Hello_UPI_iOS_FrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5309002C4E6130006CD382 /* Hello_UPI_iOS_FrameworkTests.swift */; };
 		5D5309022C4E6130006CD382 /* Hello_UPI_iOS_Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5308F42C4E6130006CD382 /* Hello_UPI_iOS_Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D53090C2C4E626C006CD382 /* HelloUPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D53090B2C4E626C006CD382 /* HelloUPI.swift */; };
+		5D5309492C4E66BE006CD382 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D5309482C4E66BD006CD382 /* Languages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +35,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D01256C2C579DE7005CD355 /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
+		5D0125732C579EFB005CD355 /* WebSocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketView.swift; sourceTree = "<group>"; };
+		5D20A5E82C4E6F6600DA4F66 /* AES_ALGO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AES_ALGO.swift; sourceTree = "<group>"; };
+		5D20A5EA2C4E70B500DA4F66 /* CustomAudioSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAudioSDK.swift; sourceTree = "<group>"; };
+		5D20A5EC2C4E719100DA4F66 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
+		5D20A6062C4E9D7300DA4F66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D2F985D2C523EBC0021B47F /* ContactsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsManager.swift; sourceTree = "<group>"; };
+		5D2F985F2C52416F0021B47F /* ContactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactScreen.swift; sourceTree = "<group>"; };
+		5D2F98692C5253570021B47F /* WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
 		5D5308F12C4E6130006CD382 /* Hello_UPI_iOS_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hello_UPI_iOS_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5308F42C4E6130006CD382 /* Hello_UPI_iOS_Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello_UPI_iOS_Framework.h; sourceTree = "<group>"; };
 		5D5308F52C4E6130006CD382 /* Hello_UPI_iOS_Framework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Hello_UPI_iOS_Framework.docc; sourceTree = "<group>"; };
 		5D5308FB2C4E6130006CD382 /* Hello UPI iOS FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hello UPI iOS FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5309002C4E6130006CD382 /* Hello_UPI_iOS_FrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello_UPI_iOS_FrameworkTests.swift; sourceTree = "<group>"; };
+		5D53090B2C4E626C006CD382 /* HelloUPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUPI.swift; sourceTree = "<group>"; };
+		5D5309482C4E66BD006CD382 /* Languages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Languages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +72,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D01256B2C579DC5005CD355 /* AudioModule */ = {
+			isa = PBXGroup;
+			children = (
+				5D20A5EA2C4E70B500DA4F66 /* CustomAudioSDK.swift */,
+				5D01256C2C579DE7005CD355 /* AudioView.swift */,
+			);
+			path = AudioModule;
+			sourceTree = "<group>";
+		};
+		5D01256E2C579E6D005CD355 /* ContactsModule */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F985D2C523EBC0021B47F /* ContactsManager.swift */,
+				5D2F985F2C52416F0021B47F /* ContactScreen.swift */,
+			);
+			path = ContactsModule;
+			sourceTree = "<group>";
+		};
+		5D01256F2C579E85005CD355 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				5D20A5EC2C4E719100DA4F66 /* BottomSheetView.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
+		5D0125702C579E9A005CD355 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5D5309482C4E66BD006CD382 /* Languages.swift */,
+				5D20A5E82C4E6F6600DA4F66 /* AES_ALGO.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5D0125712C579EC4005CD355 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				5D53090B2C4E626C006CD382 /* HelloUPI.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5D0125722C579EDC005CD355 /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				5D2F98692C5253570021B47F /* WebSocket.swift */,
+				5D0125732C579EFB005CD355 /* WebSocketView.swift */,
+			);
+			path = WebSocket;
+			sourceTree = "<group>";
+		};
 		5D5308E72C4E6130006CD382 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +145,13 @@
 		5D5308F32C4E6130006CD382 /* Hello UPI iOS Framework */ = {
 			isa = PBXGroup;
 			children = (
+				5D0125712C579EC4005CD355 /* Core */,
+				5D01256F2C579E85005CD355 /* BottomSheet */,
+				5D01256B2C579DC5005CD355 /* AudioModule */,
+				5D0125722C579EDC005CD355 /* WebSocket */,
+				5D01256E2C579E6D005CD355 /* ContactsModule */,
+				5D0125702C579E9A005CD355 /* Utility */,
+				5D20A6062C4E9D7300DA4F66 /* Assets.xcassets */,
 				5D5308F42C4E6130006CD382 /* Hello_UPI_iOS_Framework.h */,
 				5D5308F52C4E6130006CD382 /* Hello_UPI_iOS_Framework.docc */,
 			);
@@ -177,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D20A6072C4E9D7300DA4F66 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +276,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D20A5E92C4E6F6600DA4F66 /* AES_ALGO.swift in Sources */,
+				5D01256D2C579DE7005CD355 /* AudioView.swift in Sources */,
 				5D5308F62C4E6130006CD382 /* Hello_UPI_iOS_Framework.docc in Sources */,
+				5D2F98602C52416F0021B47F /* ContactScreen.swift in Sources */,
+				5D53090C2C4E626C006CD382 /* HelloUPI.swift in Sources */,
+				5D20A5EB2C4E70B500DA4F66 /* CustomAudioSDK.swift in Sources */,
+				5D0125742C579EFB005CD355 /* WebSocketView.swift in Sources */,
+				5D5309492C4E66BE006CD382 /* Languages.swift in Sources */,
+				5D20A5ED2C4E719100DA4F66 /* BottomSheetView.swift in Sources */,
+				5D2F986A2C5253570021B47F /* WebSocket.swift in Sources */,
+				5D2F985E2C523EBC0021B47F /* ContactsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +449,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -365,9 +458,13 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ctpl.helloupi.Hello-UPI-iOS-Framework";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctpl.helloupi;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
@@ -390,6 +487,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -398,9 +496,13 @@
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ctpl.helloupi.Hello-UPI-iOS-Framework";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ctpl.helloupi;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
@@ -411,6 +513,7 @@
 		5D5309092C4E6130006CD382 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 274V7YW5R7;
@@ -427,6 +530,7 @@
 		5D53090A2C4E6130006CD382 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 274V7YW5R7;
